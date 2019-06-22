@@ -1,13 +1,18 @@
-.btn:hover {
-  background: black;
+.btn {
+  background-color: black;
   width: 100px;
   padding: 10px;
   border-radius: 5px;
-  text-align: center;
-  color: white;
   font-size: 1.9rem;
 }
-.btn:hover:hover {
+.btn .btn:hover {
+  background-color: blue;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.9rem;
+}
+.btn .btn:hover:hover {
   background-color: blue;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
