@@ -1,9 +1,11 @@
 .btn {
-  background-color: black;
+  background-color: #22283A;
   width: 100px;
   padding: 10px;
   border-radius: 5px;
   font-size: 1.9rem;
+  color: white;
+  text-align: center;
 }
 .btn .btn:hover {
   background-color: blue;
@@ -11,6 +13,8 @@
   padding: 10px;
   border-radius: 5px;
   font-size: 1.9rem;
+  color: white;
+  text-align: center;
 }
 .btn .btn:hover:hover {
   background-color: blue;
@@ -185,6 +189,7 @@ p {
 .navigation .container h1 {
   font-size: 4rem;
 }
+/* NO TIME TO MAKE A CHILD ITEM, CANT SOLVE IT */
 footer {
   color: #22283B;
   background: #f4f4f4;
