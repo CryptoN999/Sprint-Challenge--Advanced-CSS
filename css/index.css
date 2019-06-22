@@ -1,4 +1,4 @@
-.btn {
+.btn:hover {
   background: black;
   width: 100px;
   padding: 10px;
@@ -7,7 +7,7 @@
   color: white;
   font-size: 1.9rem;
 }
-.btn .btn:hover {
+.btn:hover:hover {
   background-color: blue;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -175,8 +175,6 @@ p {
 .navigation .container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  background-color: #F6F6F6;
   padding: 30px;
 }
 .navigation .container h1 {
