@@ -1,43 +1,57 @@
 .navigation {
     width: 100%;
     height: 100px;
-    display: block;
     background-color: @sea-shell;
-    .container {
+    
+
+    @media @mobile {
+        width: 100%;
+        
+        
+    }
+    
+
+    .nav-container{
         height: 100%;
-        display: block;
+        display: flex;
         align-items: center;
-        align-content: space-between;
+        flex-flow: column wrap;
+        justify-content: center;
+        @media @mobile {
+            width: 90%;
+            
+        }
+
         h1 {
             font-size: 4.5rem;
-            margin-left: 210px;
+            margin: 0;
+        }
 
             @media @mobile {
                  font-size: 4rem;
-                 margin-left: 100px;
             }
-        }
-        .nav-home {
-            width: 500px;
+                 
+        
+         .navHome {
+            width: 20%;
             display: flex;
+            flex-direction: row;
             justify-content: space-evenly;
-            margin-top: 30px
-            
-            
-            @media @mobile {
-                width: 100%;
-                justify-content: space-around;
-                margin-left: 50px;
-                width: 400px;
-            }
-
+            align-items: center;
+         }        
             a {
-                text-decoration: none;
-                color: @river-bend;
-                font-size: 2rem;
+                font-size: 1.7rem;
+                @media @mobile {
+                    font-size: 0.6rem;
+                    
+                }
             }
-        }
+        
+            
+        
+    }
+}
 
-    
+
 
 
